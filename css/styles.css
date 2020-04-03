@@ -142,17 +142,6 @@ p{
     padding: 3% 2%;
 }
 
-@media (max-width: 1028px){
-    .title-image{
-        position: static;
-        transform: rotate(0);
-    }
-
-    #title{
-        text-align: center;
-    }
-}
-
 /* CTA Section */
 
 #cta{
@@ -172,8 +161,20 @@ p{
 #footer{
     background-color: #fff;
     text-align: center;
+    padding: 4% 2%;
 }
 
 .footer-icon{
-    padding: 5% 2%;
+    padding: 3% 1%;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
 }
