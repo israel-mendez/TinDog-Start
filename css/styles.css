@@ -28,7 +28,7 @@ p{
 /* Class Styles */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -49,7 +49,7 @@ p{
 
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Montserrat-Light';
+    font-family: 'Montserrat-Light', sans-serif;
 }
 
 .feature-box{
@@ -67,6 +67,8 @@ p{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 
 .fa-google-play{
@@ -95,8 +97,11 @@ p{
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
+/* Testimonial Section */
 #testimonials{
     text-align: center;
     background-color: #ff4c68;
@@ -120,6 +125,19 @@ p{
     margin: 20px 20px 50px;
 }
 
+/* Carousel Section */
+
 .carousel-item{
     padding: 7% 15%;
+}
+
+/* Card Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
 }
